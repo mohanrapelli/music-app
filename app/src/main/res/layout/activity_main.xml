@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="690dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:drawableLeft="@drawable/arrow">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:drawableLeft="@drawable/arrow2">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:paddingLeft="9dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="250dp"
+                android:layout_height="206dp"
+                android:contentDescription="@string/app_name"
+                android:layout_marginStart="70dp"
+                android:src="@drawable/week1">
+
+            </ImageView>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Starboy"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="the weekend daft punk"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:src="@drawable/edit">
+
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="03:35"
+            android:textSize="25dp"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:layout_weight="0.5">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="03:50"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAlignment="textEnd"
+            android:paddingRight="15dp"
+            android:layout_weight="0.5">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-25dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/baseline_skip_previous_24">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/baseline_replay_10_24">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:drawableRight="@drawable/play">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:drawableRight="@drawable/baseline_forward_10_24">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:drawableRight="@drawable/baseline_skip_next_24">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:padding="5dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/baseline_timer_24"
+            android:paddingLeft="19dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/time">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/share"
+            android:paddingLeft="22dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:drawableRight="@drawable/menu"
+            android:paddingRight="22dp">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="^"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lyrics"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp">
+
+    </TextView>
+
+</LinearLayout>
+
+
+
+
+
